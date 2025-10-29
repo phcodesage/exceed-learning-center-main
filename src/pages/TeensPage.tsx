@@ -111,10 +111,39 @@ function TeensPage() {
               </div>
               <h2 className="text-3xl font-bold" style={{ color: '#0e1f3e' }}>Public Speaking</h2>
             </div>
-            <div className="ml-16">
-              <p className="text-lg italic" style={{ color: '#0e1f3e', opacity: 0.7 }}>
-                Details to follow
+            <div className="ml-16 space-y-4">
+              <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                Master the art of public speaking with our comprehensive course designed specifically for teens. Build confidence, develop persuasive communication skills, and overcome stage fright.  
               </p>
+              <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                <strong>Duration:</strong> 8 weeks, 2 hours per session
+              </p>
+              <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                <strong>Schedule:</strong> Saturdays 10am-12pm
+              </p>
+              <div className="mt-6 p-6 rounded-lg" style={{ backgroundColor: '#f7e0e0' }}>
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#ca3433' }}>Winter 2026 Session</h3>
+                <p className="text-lg mb-2" style={{ color: '#0e1f3e' }}>
+                  <strong>Starting:</strong> January 11, 2026
+                </p>
+                <p className="text-lg mb-4" style={{ color: '#0e1f3e' }}>
+                  Learn essential public speaking techniques, presentation skills, and gain practical experience through regular speaking opportunities.
+                </p>
+                <div className="mt-4 p-4 bg-white rounded-lg">
+                  <p className="text-xl font-bold mb-4" style={{ color: '#0e1f3e' }}>
+                    $299 for the full 8-week program
+                  </p>
+                  <a
+                    href="https://public-speaking-course-landing-page.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-all hover:opacity-90"
+                    style={{ backgroundColor: '#ca3433' }}
+                  >
+                    Register for Public Speaking Course
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
