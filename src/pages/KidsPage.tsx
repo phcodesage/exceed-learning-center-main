@@ -9,25 +9,25 @@ function KidsPage() {
       title: 'Afterschool Programs',
       icon: School,
       description: 'Comprehensive afterschool learning and enrichment',
-      link: 'https://day-camps.vercel.app/'
+      link: 'https://kids-after-school-programs.vercel.app/'
     },
     {
       title: 'ABACUS',
       icon: Calculator,
       description: 'Mental math and cognitive development',
-      link: 'https://day-camps.vercel.app/'
+      link: 'https://abacus-kids-landing-page.vercel.app/'
     },
     {
       title: 'Private Chess',
       icon: Crown,
       description: 'Strategic thinking and problem-solving skills',
-      link: 'https://day-camps.vercel.app/'
+      link: '/'
     },
     {
       title: 'DAY CAMP',
       icon: Sun,
       description: 'Summer learning adventures and fun activities',
-      link: 'https://day-camp-website.vercel.app/'
+      link: 'https://day-camps.vercel.app/'
     }
   ];
 
