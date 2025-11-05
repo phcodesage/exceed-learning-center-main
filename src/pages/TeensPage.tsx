@@ -122,9 +122,9 @@ function TeensPage() {
                 <strong>Schedule:</strong> Saturdays 10am-12pm
               </p>
               <div className="mt-6 p-6 rounded-lg" style={{ backgroundColor: '#f7e0e0' }}>
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#ca3433' }}>Winter 2026 Session</h3>
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#ca3433' }}>Upcoming Session Dates</h3>
                 <p className="text-lg mb-2" style={{ color: '#0e1f3e' }}>
-                  <strong>Starting:</strong> January 11, 2026
+                  <strong>Dates:</strong> Nov 23, 30, Dec 7 & 14
                 </p>
                 <p className="text-lg mb-4" style={{ color: '#0e1f3e' }}>
                   Learn essential public speaking techniques, presentation skills, and gain practical experience through regular speaking opportunities.
