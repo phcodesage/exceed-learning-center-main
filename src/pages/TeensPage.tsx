@@ -116,7 +116,7 @@ function TeensPage() {
                 Master the art of public speaking with our comprehensive course designed specifically for teens. Build confidence, develop persuasive communication skills, and overcome stage fright.  
               </p>
               <p className="text-lg" style={{ color: '#0e1f3e' }}>
-                <strong>Duration:</strong> 8 weeks, 2 hours per session
+                <strong>Duration:</strong> 4 weeks, 2 hours per session
               </p>
               <p className="text-lg" style={{ color: '#0e1f3e' }}>
                 <strong>Schedule:</strong> Saturdays 10am-12pm
@@ -131,7 +131,7 @@ function TeensPage() {
                 </p>
                 <div className="mt-4 p-4 bg-white rounded-lg">
                   <p className="text-xl font-bold mb-4" style={{ color: '#0e1f3e' }}>
-                    $299 for the full 8-week program
+                    $399 for the full 4-week program
                   </p>
                   <a
                     href="https://public-speaking-course-landing-page.vercel.app/"
