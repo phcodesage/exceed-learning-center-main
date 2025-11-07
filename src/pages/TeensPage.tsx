@@ -143,6 +143,47 @@ function TeensPage() {
                     Register for Public Speaking Course
                   </a>
                 </div>
+                {/* Additional optional course offering */}
+                <div className="mt-6 p-6 rounded-lg" style={{ backgroundColor: '#e8f4f8' }}>
+                  <h3 className="text-2xl font-bold mb-3" style={{ color: '#ca3433' }}>
+                    Additional Option: Speak to Lead: The Art of Confident Communication
+                  </h3>
+                  <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                    <strong>Course Start:</strong> December 7
+                  </p>
+                  <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                    <strong>Instructor:</strong> Joseph A. Beauchamp, MBA, MS
+                  </p>
+                  <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                    <strong>Schedule:</strong> Every Sunday, 2:00 PM – 4:00 PM
+                  </p>
+                  <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                    <strong>Duration:</strong> 4 weeks
+                  </p>
+                  <p className="text-lg" style={{ color: '#0e1f3e' }}>
+                    <strong>Format:</strong> Interactive in-person sessions with live coaching, practice, and feedback
+                  </p>
+                  <p className="text-lg mb-2" style={{ color: '#0e1f3e' }}>
+                    <strong>Audience:</strong> Teens and adults seeking to improve speaking confidence, presentation skills, and leadership presence
+                  </p>
+                  <div className="mt-4 p-4 bg-white rounded-lg">
+                    <p className="text-xl font-bold mb-2" style={{ color: '#0e1f3e' }}>
+                      $439 full course
+                    </p>
+                    <p className="text-sm mb-4" style={{ color: '#0e1f3e' }}>
+                      Sign up by Nov 15 and receive a $40 discount — pay $399!
+                    </p>
+                    <a
+                      href="https://the-art-of-confident-communication.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-all hover:opacity-90"
+                      style={{ backgroundColor: '#ca3433' }}
+                    >
+                      View Speak to Lead Page
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
