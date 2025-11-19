@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Lenis from '@studio-freight/lenis';
 import HomePage from './pages/HomePage';
 import KidsPage from './pages/KidsPage';
 import TeensPage from './pages/TeensPage';
@@ -6,6 +8,23 @@ import AdultsPage from './pages/AdultsPage';
 import WorkshopsPage from './pages/WorkshopsPage';
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      smooth: true,
+    });
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
+
   return (
     <Router>
       <Routes>
