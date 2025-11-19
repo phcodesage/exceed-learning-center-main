@@ -41,6 +41,29 @@ function AdultsPage() {
           <div className="bg-white rounded-lg shadow-lg p-8 border-2" style={{ borderColor: '#0e1f3e' }}>
             <div className="flex items-center gap-4 mb-6">
               <div className="p-4 rounded-full" style={{ backgroundColor: '#f7e0e0' }}>
+                <Users size={40} style={{ color: '#ca3433' }} />
+              </div>
+              <h2 className="text-3xl font-bold" style={{ color: '#0e1f3e' }}>DISC WORKSHOP</h2>
+            </div>
+            <div className="ml-16">
+              <p className="text-lg mb-4" style={{ color: '#0e1f3e' }}>
+                Hands-on sessions to build practical skills and momentum. Join the next workshop below.
+              </p>
+              <a
+                href="https://disc-to-succeed.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-all hover:opacity-90"
+                style={{ backgroundColor: '#ca3433' }}
+              >
+                Explore DISC Workshop
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-lg p-8 border-2" style={{ borderColor: '#0e1f3e' }}>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="p-4 rounded-full" style={{ backgroundColor: '#f7e0e0' }}>
                 <BookOpen size={40} style={{ color: '#ca3433' }} />
               </div>
               <h2 className="text-3xl font-bold" style={{ color: '#0e1f3e' }}>Book Club</h2>
