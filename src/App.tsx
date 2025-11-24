@@ -6,7 +6,6 @@ import KidsPage from './pages/KidsPage';
 import TeensPage from './pages/TeensPage';
 import AdultsPage from './pages/AdultsPage';
 import WorkshopsPage from './pages/WorkshopsPage';
-import WinterWorkshopsPage from './pages/WinterWorkshopsPage';
 
 function App() {
   useEffect(() => {
@@ -32,7 +31,6 @@ function App() {
         <Route path="/teens" element={<TeensPage />} />
         <Route path="/adults" element={<AdultsPage />} />
         <Route path="/workshops" element={<WorkshopsPage />} />
-        <Route path="/workshops/winter" element={<WinterWorkshopsPage />} />
       </Routes>
     </Router>
   );

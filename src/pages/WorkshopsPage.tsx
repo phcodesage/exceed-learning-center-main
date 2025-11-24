@@ -117,21 +117,6 @@ function WorkshopsPage() {
             </a>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-8 text-center border-2" style={{ borderColor: '#0e1f3e' }}>
-            <h3 className="text-2xl font-bold mb-4" style={{ color: '#0e1f3e' }}>
-              Winter Series 2025
-            </h3>
-            <p className="text-lg mb-6" style={{ color: '#0e1f3e' }}>
-              Join us for our special Winter 2025 workshops: Letter for Your Future Self, A Year in Review, and more.
-            </p>
-            <button
-              onClick={() => navigate('/workshops/winter')}
-              className="inline-block px-8 py-4 text-white font-bold text-lg rounded-lg transition-all hover:opacity-90 hover:scale-105"
-              style={{ backgroundColor: '#0e1f3e' }}
-            >
-              View Winter Workshops
-            </button>
-          </div>
         </div>
       </main>
 
