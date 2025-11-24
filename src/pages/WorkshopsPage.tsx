@@ -6,19 +6,34 @@ function WorkshopsPage() {
 
   const events = [
     {
-      date: 'Dec. 2, 2025',
+      date: 'Dec. 1, 2025',
       type: 'Workshop',
       title: 'Goals with Souls'
     },
     {
+      date: 'Dec. 8, 2025',
+      type: 'Workshop',
+      title: 'The Art of Saying "No" - Boundaries for Better Life'
+    },
+    {
       date: 'Dec. 17, 2025',
       type: 'Workshop',
-      title: 'Letter To Your Future Self'
+      title: 'Redefining Success - What Truly Matters to You'
+    },
+    {
+      date: 'Dec. 23, 2025',
+      type: 'Workshop',
+      title: 'Letter for Your Future Self'
     },
     {
       date: 'Dec. 23, 2025',
       type: 'Workshop',
       title: 'Reflect, Reset, End the Year and Start a New One - Stronger'
+    },
+    {
+      date: 'Dec. 30, 2025',
+      type: 'Workshop',
+      title: 'A Year in Review - Celebrate, Release and Renew'
     }
   ];
 
